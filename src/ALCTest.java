@@ -11,14 +11,10 @@ import static org.lwjgl.openal.ALC10.*;
 import static org.lwjgl.stb.STBVorbis.stb_vorbis_decode_filename;
 import static org.lwjgl.system.MemoryStack.stackMallocInt;
 
-/**
- *
- * This is a test for the ALC part of OpenAL
- *
- * @author Brian Matzon <brian@matzon.dk>
- * @version $Revision$
- * $Id$
- */
+/*
+ @author downthecrop
+*/
+
 public class ALCTest {
 
     public static void playSound(String name) throws Exception{
